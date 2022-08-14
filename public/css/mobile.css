@@ -49,4 +49,10 @@
     top: 20px;
 
 }
+.pimg:hover{
+    transform: scale(1);
+}
+.profile-box:hover{
+    transform: scale(1);
+}
 }
