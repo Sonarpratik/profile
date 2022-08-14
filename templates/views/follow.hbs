@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+{{>header}}
+<body>
+    <div class="container">
+        <div class="profile-box">
+            <a  class="icp" href="/"> 
+            <img class="pimg1 menu" src="css/menu1.webp" alt="">
+            </a>
+            <a class="icp"  href="/setting"> 
+                <img class="pimg1 setting" src="css/set1.webp" alt="">
+            </a>
+            <form action="/follow" method="POST" class="site  site1">
+                
+                <input class="in" placeholder="Enter Your Name" type="text" name="fullname" required>
+                <input class="in" placeholder="Enter Your Phone no" type="text" name="number" required>
+                <input class="in" placeholder="Enter Your Gmail" type="email" name="email" required>
+                <input class="in" placeholder="Enter Your Password" type="password" name="password" required>
+          
+           <div class="social">
+                <a href="http://facebook.com"><img class=" s1" src="css/face1.webp" alt=""></a>
+                <a href="http://twitter.com"><img class=" s1" src="css/twit1.webp" alt=""></a>
+                <a href="http://instagram.com"><img class=" s1" src="css/insta1.webp" alt=""></a>
+           </div>
+                  
+                 <input type="submit"  class="btn btn1" value="Submit">
+            </form>
+
+        </div>
+    </div>
+</body>
+{{>main }}
+
+</html>
