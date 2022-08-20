@@ -1,27 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 {{>header}}
+
 <body>
     <div class="container">
         <div class="profile-box">
-            <a  class="icp" href="/"> 
-            <img class="pimg1 menu" src="css/menu1.webp" alt="">
-            </a>
-            <a class="icp"  href="/setting"> 
-                <img class="pimg1 setting" src="css/set1.webp" alt="">
-            </a>
-            
 
-                <img  class="pimg2" src="css/under123.webp" alt="">
-            
-           <h3>Error 404</h3>
-           <p>Page Under Construction</p>
-           <div class="social">
+           
+
+               
+                <img class="pimg1 menu raidhide" onclick="rev()" src="css/back.webp" alt="">
+
+
+                <img class="pimg2" src="css/under123.webp" alt="">
+
+                <h3>Error 404</h3>
+                <p>Page Under Construction</p>
+
+            <div class="social">
                 <a href="http://facebook.com"><img class=" s1" src="css/face1.webp" alt=""></a>
                 <a href="http://twitter.com"><img class=" s1" src="css/twit1.webp" alt=""></a>
                 <a href="http://instagram.com"><img class=" s1" src="css/insta1.webp" alt=""></a>
-           </div>
-          {{>footer}}
+            </div>
+            <button type="button" class="btn" ><a href="/">Go Back</a>
+</button>
+<div class="p-bottom">
+  <p>Learn More About My Profile</p>
+  <a href="/error"><i class="fa fa-arrow-down"></i></a>
+
+<div class="blast">
+  <div onclick="col1()" class="child"></div>
+  <div onclick="col()" class="child1"></div>
+  <div onclick="col2()" class="child2"></div>
+</div>
+</div>
         </div>
     </div>
 </body>

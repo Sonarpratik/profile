@@ -75,12 +75,7 @@ body{
     transition: 0.2s linear;
     transform: scale(1.01);
 }
-.icp{
-    color: white;
-   
-    text-decoration: none;
-    vertical-align: middle;
-}
+
 
 .pimg{
     height: 150px;
@@ -89,6 +84,8 @@ body{
     background-color: #fff;
     filter: drop-shadow(0 0.5rem 1rem rgba(0,0,0,1));
     /* box-shadow: 0px 0px 100px 10px black; */
+
+
 
     padding: 6px;
 
@@ -147,7 +144,7 @@ body{
 }
 .fa{
     color: var(--main-bg);
-    
+    cursor: pointer;
 }
 
 .btn{
@@ -226,4 +223,42 @@ margin-bottom: 10px;
     background-color: #ff574a;
     height: 20px;
     width: 20px;
+}
+.unhide{
+    display: block;
+}
+.site{
+    display: none;
+}
+.raidhide{
+    display: none;
+    cursor: pointer;
+    transform: rotate(180deg);
+
+}
+.un1st{
+    display: block;
+    cursor: pointer;
+}
+.main-box{
+    display: none;
+}
+.raidfund{
+    display: none;
+    cursor: pointer;
+}
+.satfund{
+    cursor: pointer;
+}
+
+.dp{
+    display: flex;
+    flex-direction: column;
+}
+.dp{
+    display: none;
+}
+.raidspin{
+    transform: rotate(180deg);
+
 }

@@ -37,17 +37,12 @@ hbs.registerPartials(partials_path);
 app.get("/", (req, res) => {
   res.render("index");
 });
-app.get("/web", (req, res) => {
-  res.render("web");
-});
-app.get("/setting", (req, res) => {
-  res.render("setting");
-});
+
 
 app.get("/follow", (req, res) => {
   res.render("follow");
 });
-app.post("/follow", (req, res) => {
+app.post("/", (req, res) => {
   try {
     var registerpassword = new Register({
       fullname: req.body.fullname,

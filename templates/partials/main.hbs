@@ -1,17 +1,82 @@
 <script>
-    
-function col()
-{
-    document.querySelector(':root').style.setProperty('--main-bg','#082d10')
 
-}
-         function col1(){
-
-    document.querySelector(':root').style.setProperty('--main-bg','#000000')
+    function col() {
+        document.querySelector(':root').style.setProperty('--main-bg', '#082d10')
     }
-    function col2(){
+    function col1() {
+        document.querySelector(':root').style.setProperty('--main-bg', '#000000')
+    }
+    function col2() {
+        document.querySelector(':root').style.setProperty('--main-bg', '#ff574a')
+    }
+    function web() {
+        document.querySelector('.main-box').style.setProperty('display', 'none')
 
-    document.querySelector(':root').style.setProperty('--main-bg','#ff574a')
-    } 
+        document.querySelector('.site').style.setProperty('display', 'flex')
+        document.querySelector('.unhide').style.setProperty('display', 'none')
+        document.querySelector('.un1st').style.setProperty('display', 'none')
+        document.querySelector('.raidhide').style.setProperty('display', 'block')
 
+         
+        document.querySelector('.raidfund').style.setProperty('display', 'none')
+        document.querySelector('.satfund').style.setProperty('display', 'none')
+    }
+    function rev() {
+        document.querySelector('.main-box').style.setProperty('display', 'none')
+
+        document.querySelector('.site').style.setProperty('display', 'none')
+        document.querySelector('.unhide').style.setProperty('display', 'block')
+        document.querySelector('.un1st').style.setProperty('display', 'block')
+        document.querySelector('.raidhide').style.setProperty('display', 'none')
+
+        document.querySelector('.satfund').style.setProperty('display', 'block')
+        document.querySelector('.dp').style.setProperty('display', 'none')
+        document.querySelector('.last-stack').style.setProperty('display', 'block')
+        document.querySelector('.footer-box').style.setProperty('display', 'block')
+
+        
+
+    }
+    function front() {
+        document.querySelector('.site').style.setProperty('display', 'none')
+        
+        document.querySelector('.main-box').style.setProperty('display', 'flex')
+        document.querySelector('.unhide').style.setProperty('display', 'none')
+        document.querySelector('.raidfund').style.setProperty('display', 'block')
+        document.querySelector('.satfund').style.setProperty('display', 'none')
+
+    
+        document.querySelector('.un1st').style.setProperty('display', 'none')
+        document.querySelector('.raidhide').style.setProperty('display', 'none')
+       
+    }
+    function back() {
+        document.querySelector('.site').style.setProperty('display', 'none')
+
+        document.querySelector('.main-box').style.setProperty('display', 'none')
+        document.querySelector('.unhide').style.setProperty('display', 'block')
+        document.querySelector('.raidfund').style.setProperty('display', 'none')
+        document.querySelector('.satfund').style.setProperty('display', 'block')
+
+        document.querySelector('.un1st').style.setProperty('display', 'block')
+        document.querySelector('.dp').style.setProperty('display', 'none')
+
+    }
+
+
+    function open1(){
+        document.querySelector('.footer-box').style.setProperty('display', 'none')
+
+        document.querySelector('.dp').style.setProperty('display', 'flex')
+        document.querySelector('.main-box').style.setProperty('display', 'none')
+        document.querySelector('.site').style.setProperty('display', 'none')
+        document.querySelector('.unhide').style.setProperty('display', 'none')
+        document.querySelector('.last-stack').style.setProperty('display', 'none')
+        
+        document.querySelector('.un1st').style.setProperty('display', 'none')
+        document.querySelector('.raidfund').style.setProperty('display', 'none')
+        document.querySelector('.satfund').style.setProperty('display', 'none')
+        document.querySelector('.raidhide').style.setProperty('display', 'block')
+
+    }
 </script>
