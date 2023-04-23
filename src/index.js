@@ -4,6 +4,7 @@ const path = require("path");
 const hbs = require("hbs");
 const mongo = require("./db/conn");
 const Register = require("./models/reg");
+// const fetch = require('node-fetch');
 
 const connectRe = async () => {
   await mongo().then((mongo) => {
